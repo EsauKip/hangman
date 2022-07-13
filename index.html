@@ -23,9 +23,48 @@
                     <br>
                 </td>
                 <td class="add">
-
+                    <input typr="text" name="word" value="---Hangman--" readonly onfocus="word.blur();" size=15>
+                    <br>
+                
+                        <input type="text" name="tried" value="Click Go to get the word" onfocus="tried.blur();" size="25">
+                </td>
+                <td class="data">
+                    <input type="button" name="go" value="Go" onclick="new_word(this.form);">
                 </td>
 
+            
+
+            </tr>
+            <tr>
+                <td><input type="button" value="A"onclick="seek('A');"></td>
+                <td><input type="button" value="B"onclick="seek('B');"></td>
+                <td><input type="button" value="C"onclick="seek('C');"></td>
+                <td><input type="button" value="D"onclick="seek('D');"></td>
+                <td><input type="button" value="E"onclick="seek('E');"></td>
+                <td><input type="button" value="F"onclick="seek('F');"></td>
+                <td><input type="button" value="G"onclick="seek('G');"></td>
+                <td><input type="button" value="H"onclick="seek('H');"></td>
+                <td><input type="button" value="I"onclick="seek('I');"></td>
+                <td><input type="button" value="J"onclick="seek('J');"></td>
+                <td><input type="button" value="K"onclick="seek('K');"></td>
+                <td><input type="button" value="L"onclick="seek('L');"></td>
+                <td><input type="button" value="M"onclick="seek('M');"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="N" onclick="seek('N');"></td>
+                <td><input type="button" value="O" onclick="seek('O');"></td>
+                <td><input type="button" value="P" onclick="seek('P');"></td>
+                <td><input type="button" value="Q" onclick="seek('Q');"></td>
+                <td><input type="button" value="R" onclick="seek('R');"></td>
+                <td><input type="button" value="S" onclick="seek('S');"></td>
+                <td><input type="button" value="T" onclick="seek('T');"></td>
+                <td><input type="button" value="U" onclick="seek('U');"></td>
+                <td><input type="button" value="V" onclick="seek('V');"></td>
+                <td><input type="button" value="W" onclick="seek('W');"></td>
+                <td><input type="button" value="X" onclick="seek('X');"></td>
+                <td><input type="button" value="Y" onclick="seek('Y');"></td>
+                <td><input type="button" value="Z" onclick="seek('Z');"></td>
+                
             </tr>
         </table>
     </center>
