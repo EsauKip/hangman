@@ -1,0 +1,17 @@
+.all{
+    /* width: 100%;
+    height: 100%; */
+    background-color:red;
+    /* position: relative;
+    overflow: hidden; */
+    border: 1;
+}
+.data{
+    column-span: 6;
+    align-items: right;
+
+}
+.add{
+    column-span: 7;
+    align-items: center;
+}
